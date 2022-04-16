@@ -1,0 +1,8 @@
+.MuiDrawer-paper{
+    justify-content: center;
+}
+.nav-links{
+    text-decoration: none;
+    color: black;
+    font-family: poppins;
+}

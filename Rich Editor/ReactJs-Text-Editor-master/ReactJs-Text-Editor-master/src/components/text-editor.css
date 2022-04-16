@@ -1,0 +1,47 @@
+
+.toolbarClassName {
+    justify-content: center !important;
+    position: fixed;
+    position: fixed;
+    top: 100px;
+    width: 100%;
+    z-index: 999;
+
+}
+
+@media print {
+    .toolbarClassName{
+        display: none !important;
+    }
+    .editorClassName{
+        
+        min-height: 100vh !important;
+        max-width: 100% !important;
+        margin-top: 0 !important;
+    }
+    span{
+        background-color: transparent;
+    }
+ }
+
+span{
+    background-color: transparent;
+}
+.editorClassName{
+
+    min-height: 1123px;
+    max-width: 1100px ;
+    margin: 0 auto;
+    margin-top: 75px;
+    padding: 50px;
+    font-weight: 600;
+}
+
+.rdw-colorpicker-wrapper, .rdw-fontfamily-wrapper, .rdw-fontsize-wrapper{
+    margin-top: 5px;
+    margin-bottom: 0 !important;
+}
+
+.rdw-dropdown-selectedtext{
+   color: black;
+}

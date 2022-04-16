@@ -1,0 +1,53 @@
+.App {
+  text-align: center;
+  background-color: rgb(255, 128, 0);
+}
+
+.rdw-editor-main{
+  background-color: #f3f3f3;
+
+}
+.DraftEditor-root{
+  /* min-height: 11.7in !important; */
+  background-color: #f3f3f3;
+}
+
+.App-logo {
+  height: 5vmin;
+  pointer-events: none;
+}
+.public-DraftEditor-content[contenteditable=true]{
+  min-height: 10.4in;
+    padding: 20px;
+}
+
+@media (prefers-reduced-motion: no-preference) {
+  .App-logo {
+    animation: App-logo-spin infinite 20s linear;
+  }
+}
+
+
+
+.App .editor {
+  width: 8.5in;
+  margin-left: 20%;
+
+}
+
+@keyframes App-logo-spin {
+  from {
+    transform: rotate(0deg);
+  }
+  to {
+    transform: rotate(360deg);
+  }
+}
+@media print {
+  .rdw-editor-toolbar{
+    display: none !important;
+  }
+  .App .editor{
+    margin: 0;
+  }
+}

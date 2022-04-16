@@ -1,0 +1,11 @@
+.rdw-color-picker-wrapper{
+    display: flex;
+    align-items: center;
+    margin-bottom: 6px;
+    position: relative;
+    flex-wrap: wrap;
+}
+
+.color-icon{
+    height: 12px;
+}

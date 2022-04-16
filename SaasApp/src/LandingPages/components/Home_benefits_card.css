@@ -1,0 +1,28 @@
+.benefit-card{
+    width: 25%;
+}
+
+.benefit-card img{
+    height: 45%;
+}
+
+.benefit-card h3{
+    font-weight: 500;
+    font-size: 20px;
+    margin: 0;
+    margin-top: 20px;
+    margin-bottom: 10px;
+}
+
+.benefit-card p{
+    margin: 0;
+}
+
+@media only screen and (max-width: 600px) {
+    .benefit-card{
+        width: 100%;
+    }
+    .benefit-card img{
+        height: 25%;
+    }
+}

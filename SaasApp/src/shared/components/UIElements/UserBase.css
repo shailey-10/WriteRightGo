@@ -1,0 +1,52 @@
+.userBase{
+    width: 100%;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-evenly;
+    padding: 40px 0px;
+    background-color: #FCBA04;
+    border-radius: 15px;
+    color: white;
+    margin-bottom: 50px;
+}
+
+.counter{
+    text-align: center;
+}
+
+.counter h2{
+    font-size: 64px;
+    margin: 0;
+}
+
+.counter p{
+    margin: 0;
+    font-size: 20px;
+    font-weight: 600;
+}
+
+.benefits{
+    text-align: center;
+}
+
+.benefits h1{
+    font-size: 44px;
+}
+
+@media only screen and (max-width: 600px) {
+    .userBase{
+        flex-direction: column;
+        row-gap: 40px;
+    }
+    .counter h2{
+        font-size: 48px;
+        margin: 0;
+    }
+    
+    .counter p{
+        margin: 0;
+        font-size: 18px;
+        font-weight: 400;
+    }
+  }

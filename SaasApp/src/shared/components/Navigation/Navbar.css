@@ -1,0 +1,44 @@
+.logo-lg{
+    width: 200px;
+}
+.logo-sm{
+    width: 150px;
+    padding: 10px 0;
+}
+
+.authenticate{
+    display: flex;
+    column-gap: 30px;
+}
+
+.menu{
+    display: none;
+}
+
+.navLinks{
+    display: flex;
+    column-gap: 30px;
+}
+
+.nav-links{
+    text-decoration: none;
+    color: black;
+}
+
+@media only screen and (max-width: 600px) {
+    .navLinks {
+      display: none;
+    }
+    .authenticate {
+        display: none;
+      }
+      .menu{
+          display: block;
+      }
+  }
+
+  @media print {
+    .navbar{
+          display:none !important;
+      }
+  }
